@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+}
+
+h1{
+  color: white;
+  font-size: 300%;
+}
+
+.first{
+  color: white
+}
+
+h2{
+  font-size: 50px;
+  text-align: center;
+
+}
+
+p{
+  text-align: center;
+  color: black;
+}
+
+h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h4{
+  font-size: 20px;
+}
+/* First page */
+.cover{
+  position: relative;
+}
+
+.content{
+  position:absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+/*Ask someone how to make this similar to a background  */
+.nightpic{
+  background-size: cover;
+  height: 725px;
+  width: 100%;
+}
+
+/* Second page */
+.profile{
+  max-width: 1280px;
+  padding: 40px 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragraph-one{
+  padding: 20px;
+}
+
+/* .profile-line{  padding: 20px;
+}
+ */
+/* Third page */
+.experience{
+  max-width: 1280px;
+  padding: 40px 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience-row{
+  margin-left: -15px;
+}
+
+.experience-period{
+  text-align: left;
+}
+
+.experience-desc{
+  position: relative;
+  display: block;
+  border: 0;
+}
+
+.abilities{
+  max-width: 1280px;
+  padding: 40px 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no-bullet{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ability-type{
+  margin-left: 0;
+}
+
+.ability-score{
+  float:right;
+}
+
+.temp{
+  max-width: 1280px;
+  padding: 40px 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact{
+  padding-top: 50px;
+}

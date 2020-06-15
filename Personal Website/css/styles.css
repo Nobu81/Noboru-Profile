@@ -1,54 +1,35 @@
-body{
-  margin: 0;
+/* Everything */
+.background-grey{
+  background-color: #D7DBDD  ;
 }
 
-h1{
-  color: white;
-  font-size: 300%;
+.img{
+  background-color: #D7DBDD;
 }
 
-.first{
-  color: white
-}
-
-h2{
-  font-size: 50px;
-  text-align: center;
-
-}
-
-p{
-  text-align: center;
-  color: black;
-}
-
-h3{
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-h4{
-  font-size: 20px;
-}
-/* First page */
+/* First Page */
 .cover{
   position: relative;
+  text-align: center;
 }
 
 .content{
   position:absolute;
-  margin-top: 5%;
-  margin-left: 5%;
+  top: 40px;
+  left: 50px;
+  color: white;
 }
 
-/*Ask someone how to make this similar to a background  */
 .nightpic{
-  background-size: cover;
-  height: 725px;
   width: 100%;
+  height: 725px;
 }
 
-/* Second page */
+
+/* Second Page */
+.title{
+  text-align: center;
+}
 .profile{
   max-width: 1280px;
   padding: 40px 180px;
@@ -56,14 +37,8 @@ h4{
   margin-right: auto;
 }
 
-.paragraph-one{
-  padding: 20px;
-}
 
-/* .profile-line{  padding: 20px;
-}
- */
-/* Third page */
+/* Third Page*/
 .experience{
   max-width: 1280px;
   padding: 40px 180px;
@@ -71,20 +46,7 @@ h4{
   margin-right: auto;
 }
 
-.experience-row{
-  margin-left: -15px;
-}
-
-.experience-period{
-  text-align: left;
-}
-
-.experience-desc{
-  position: relative;
-  display: block;
-  border: 0;
-}
-
+/* Fourth Page */
 .abilities{
   max-width: 1280px;
   padding: 40px 180px;
@@ -98,21 +60,14 @@ h4{
   padding: 0;
 }
 
-.ability-type{
-  margin-left: 0;
-}
-
 .ability-score{
-  float:right;
+  float: right;
 }
 
-.temp{
+/* Fifth Page */
+.contact{
   max-width: 1280px;
   padding: 40px 180px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.contact{
-  padding-top: 50px;
 }
